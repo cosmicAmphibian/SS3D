@@ -98,9 +98,7 @@ public class AirlockManager : MonoBehaviour
     {
         if (!moving || open)
         {
-			if (autoClose) {
-				StartCoroutine(Move());
-			}
+            StartCoroutine(Move());
         }
     }
 

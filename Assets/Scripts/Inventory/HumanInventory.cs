@@ -102,7 +102,7 @@ public class HumanInventory : Inventory
         item.HideOriginal();
     }
 
-    private new void AddItem(Item item)
+    private void AddItem(Item item)
     {
         if (!item.Held && item.compatibleSlots.HasFlag(SlotTypes.LeftHand | SlotTypes.RightHand))
         {

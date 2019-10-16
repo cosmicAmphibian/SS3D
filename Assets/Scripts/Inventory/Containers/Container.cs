@@ -16,7 +16,7 @@ public class Container : Inventory
     [SerializeField]
     private ContainerUI containerUIPrefab;
 
-    private new ContainerUI ui;
+    private ContainerUI ui;
 
     private bool visible;
 
